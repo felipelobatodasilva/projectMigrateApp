@@ -6,6 +6,7 @@ from azure.servicebus import QueueClient
 
 app = Flask(__name__)
 app.config.from_object('config.DevelopmentConfig')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 app.secret_key = app.config.get('SECRET_KEY')
 
