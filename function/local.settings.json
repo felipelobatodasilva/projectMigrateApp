@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "notificationqueue_SERVICEBUS": "Endpoint=sb://migratedb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=3zlkZXgTB0eV4zg8P98itb9MLA4MhMKl4iocUoTB9+0="
+  }
+}
